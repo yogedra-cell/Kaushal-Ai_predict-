@@ -1,5 +1,4 @@
 # Kaushal-Ai_predict-
-this is my first AI project 
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
