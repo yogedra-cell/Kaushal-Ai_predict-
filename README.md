@@ -27,7 +27,9 @@ def processCommand(c):
     elif "open whatsapp" in c:
         speak("Opening WhatsApp")
         webbrowser.open("https://www.whatsapp.com")
-
+    elif "open Facebook" in c:
+        speak("Opening Facebook")
+        webbrowser.open("https://www.Facebook.com")
 
 if __name__ == "__main__":
     speak("Kaushal AI Activated...")
